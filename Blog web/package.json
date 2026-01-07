@@ -1,0 +1,29 @@
+{
+  "name": "professional-blog",
+  "version": "1.0.0",
+  "description": "A professional static blog website with SEO optimization",
+  "main": "index.html",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "new-post": "node scripts/new-post.js",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
+    "generate-rss": "node scripts/generate-rss.js",
+    "serve": "npx http-server . -p 3000 -o",
+    "deploy": "npm run build && echo 'Ready for deployment!'"
+  },
+  "keywords": [
+    "blog",
+    "static-site",
+    "seo",
+    "markdown",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

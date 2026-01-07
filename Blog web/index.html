@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Blog - Latest Posts</title>
+    <meta name="description" content="A professional blog featuring the latest insights on technology, development, and industry trends.">
+    <link rel="canonical" href="https://yourdomain.com/">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Blog RSS Feed" href="rss.xml">
+    <link rel="sitemap" type="application/xml" href="sitemap.xml">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:title" content="Professional Blog">
+    <meta property="og:description" content="A professional blog featuring the latest insights on technology, development, and industry trends.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourdomain.com/">
+    <meta property="twitter:title" content="Professional Blog">
+    <meta property="twitter:description" content="A professional blog featuring the latest insights on technology, development, and industry trends.">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Professional Blog",
+        "description": "A professional blog featuring the latest insights on technology, development, and industry trends.",
+        "url": "https://yourdomain.com/",
+        "author": {
+            "@type": "Person",
+            "name": "Your Name"
+        }
+    }
+    </script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="/" class="nav-logo">Professional Blog</a>
+                <div class="nav-menu">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="#categories" class="nav-link">Categories</a>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Professional Blog</h1>
+                <p>Discover insights on technology, development, and industry trends</p>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search posts..." aria-label="Search blog posts">
+                    <button id="search-btn" aria-label="Search">🔍</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-section">
+            <div class="container">
+                <div class="filter-section">
+                    <h2>Filter by Category</h2>
+                    <div id="category-filters" class="category-filters"></div>
+                </div>
+                
+                <div id="blog-posts" class="blog-grid">
+                    <!-- Blog posts will be dynamically loaded here -->
+                </div>
+                
+                <div id="no-results" class="no-results" style="display: none;">
+                    <p>No posts found matching your search.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- AdSense Placeholder -->
+        <section class="ad-section">
+            <div class="container">
+                <div class="ad-placeholder">
+                    <!-- Google AdSense ad unit will go here -->
+                    <p>Advertisement</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Professional Blog. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="rss.xml">RSS Feed</a>
+                <a href="sitemap.xml">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/auto-blog.js"></script>
+</body>
+</html>

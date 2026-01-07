@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="post-title">Loading...</title>
+    <meta name="description" id="post-description" content="">
+    <link rel="canonical" id="post-canonical" href="">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" id="og-url" content="">
+    <meta property="og:title" id="og-title" content="">
+    <meta property="og:description" id="og-description" content="">
+    <meta property="og:image" id="og-image" content="">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" id="twitter-url" content="">
+    <meta property="twitter:title" id="twitter-title" content="">
+    <meta property="twitter:description" id="twitter-description" content="">
+    <meta property="twitter:image" id="twitter-image" content="">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json" id="structured-data">
+    </script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="/" class="nav-logo">Professional Blog</a>
+                <div class="nav-menu">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="/#categories" class="nav-link">Categories</a>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="blog-post">
+            <div class="container">
+                <header class="post-header">
+                    <div class="breadcrumb">
+                        <a href="/">Home</a> > <span id="post-category">Blog</span>
+                    </div>
+                    <h1 id="post-h1">Loading...</h1>
+                    <div class="post-meta">
+                        <time id="post-date" datetime="">Loading...</time>
+                        <div class="post-tags" id="post-tags"></div>
+                    </div>
+                    <img id="post-featured-image" class="featured-image" alt="" style="display: none;">
+                </header>
+                
+                <div class="post-content" id="post-content">
+                    <p>Loading post content...</p>
+                </div>
+                
+                <footer class="post-footer">
+                    <div class="share-buttons">
+                        <h3>Share this post:</h3>
+                        <a id="share-twitter" href="#" target="_blank" rel="noopener">Twitter</a>
+                        <a id="share-facebook" href="#" target="_blank" rel="noopener">Facebook</a>
+                        <a id="share-linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a>
+                    </div>
+                </footer>
+            </div>
+        </article>
+
+        <!-- AdSense Placeholder -->
+        <section class="ad-section">
+            <div class="container">
+                <div class="ad-placeholder">
+                    <!-- Google AdSense ad unit will go here -->
+                    <p>Advertisement</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-posts">
+            <div class="container">
+                <h2>Related Posts</h2>
+                <div id="related-posts-grid" class="blog-grid">
+                    <!-- Related posts will be loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Professional Blog. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="/rss.xml">RSS Feed</a>
+                <a href="/sitemap.xml">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/blog.js"></script>
+    <script src="assets/js/post.js"></script>
+</body>
+</html>
